@@ -22,7 +22,8 @@ random_numbers = ""
 for n in range(nr_numbers):
   random_numbers += random.choice(numbers) 
 #print(random_numbers)  
-random_password = random_letters + random_symbols + random_numbers  
+random_password = random_letters + random_symbols + random_numbers 
+
 #Prints the random password in order i.e letters then symbols then numbers
 #print(random_password)
 
